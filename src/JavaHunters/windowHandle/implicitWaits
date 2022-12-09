@@ -1,0 +1,9 @@
+Implicit:
+Implicit wait tells your webDriver wait for a certain amount of time before throwing an "No such Element exception".
+Implicit wait is written only once and will be applied for the whole session/execution.
+We can say Implicit wait is also called global wait.
+
+Implicit wait is usually set to 20 seconds. If your element is located in 3 seconds the rest time will be ignored.
+Your script will move on to the next action. It will be applied only for findElement() or findElements() method.
+
+Syntax: driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
