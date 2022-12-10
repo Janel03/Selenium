@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ad7079-30a6-4c42-93de-0137eba51493" name="Changes" comment="" />
+    <list default="true" id="10ad7079-30a6-4c42-93de-0137eba51493" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium22.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C8WaitsAndTables/WaitsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C8WaitsAndTables/WaitsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C8WaitsAndTables/WaitsDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C8WaitsAndTables/WaitsDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaHunters/DynamicChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaHunters/DynamicChanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaHunters/windowHandle/explicitWaits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaHunters/windowHandle/explicitWaits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Review4/waitReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review4/waitReview.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GH6H04O2POtP4yPGWG2CLpJIMg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +36,89 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/SDET Programs/Maven/commons-io-2.6.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.explicitWaits">
+    <configuration name="DynamicChanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaHunters.DynamicChanges" />
+      <module name="Selenium22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaHunters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C8WaitsAndTables.WaitsDemo" />
+      <module name="Selenium22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C8WaitsAndTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitsDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C8WaitsAndTables.WaitsDemo2" />
+      <module name="Selenium22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C8WaitsAndTables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="explicitWaits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaHunters.windowHandle.explicitWaits" />
+      <module name="Selenium22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaHunters.windowHandle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="waitReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review4.waitReview" />
+      <module name="Selenium22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Review4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.explicitWaits" />
+        <item itemvalue="Application.waitReview" />
+        <item itemvalue="Application.DynamicChanges" />
+        <item itemvalue="Application.WaitsDemo2" />
+        <item itemvalue="Application.WaitsDemo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

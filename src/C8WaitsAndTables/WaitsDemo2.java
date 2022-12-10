@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 public class WaitsDemo2 {
     public static void main(String[] args) {
@@ -22,7 +24,7 @@ public class WaitsDemo2 {
 //        so there is no purpose of using implicit wait (which waits for the webElement to be found)
 //     so we use explicit wait in this scenarios
         */
-        WebDriverWait wait=new WebDriverWait(driver,20);
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.alertIsPresent());
         //handle the alert
         Alert alert1=driver.switchTo().alert();

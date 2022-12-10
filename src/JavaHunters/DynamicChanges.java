@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 public class DynamicChanges {
     public static void main(String[] args) throws InterruptedException {
         String url = "https://syntaxprojects.com/dynamic-data-loading-demo.php";
@@ -14,7 +16,7 @@ public class DynamicChanges {
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         Thread.sleep(2000);
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
         WebElement getNewUser = driver.findElement(By.xpath("//button[contains(text(),'Get New User')]"));
         for (int i = 0; i < 3; i++) {
             getNewUser.click();

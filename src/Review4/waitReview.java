@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class waitReview {
@@ -29,7 +30,7 @@ public class waitReview {
         System.out.println(text.getText());
         WebElement button2 = driver.findElement(By.xpath("//button[text()='Enable']"));
         button2.click();
-        WebDriverWait wait=new WebDriverWait(driver,20);
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@type='text']")));
         driver.findElement(By.xpath("//input[@type='text']")).sendKeys("blabla");
 

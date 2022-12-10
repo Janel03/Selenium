@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 //implicit waits, waits only until the webelement is found
 public class WaitsDemo {
@@ -30,7 +31,7 @@ public class WaitsDemo {
         button2.click();
         //as the button appears after sometime, to be able to get a text from it,
         //need explicit wait
-        WebDriverWait wait=new WebDriverWait(driver,20);
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@id='hidden']")));
         WebElement visibleBtn = driver.findElement(By.xpath("//button[@id='hidden']"));
         visibleBtn.click();

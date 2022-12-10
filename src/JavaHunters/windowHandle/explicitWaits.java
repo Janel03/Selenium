@@ -12,15 +12,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 public class explicitWaits {
     public static void main(String[] args) {
         String url="https://syntaxprojects.com/dynamic-elements-loading.php";
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","driverNew/chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.navigate().to(url);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        WebDriverWait wait=new WebDriverWait(driver,20);
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(2000));
         WebElement startButton = driver.findElement(By.id("startButton"));//click on Start button
         startButton.click();
         //WebElement expectedOutput = driver.findElement(By.xpath("//h4[text()='Welcome Syntax Technologies']"));
