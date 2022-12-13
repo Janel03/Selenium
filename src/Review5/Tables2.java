@@ -34,32 +34,41 @@ public class Tables2 {
         employeeListBtn.click();
 
 //        goto the table look for the ID 45156A and check the checkBox Associated with it
-
         int rowCount = 0;
-        boolean notfound=true;
-//        a while loop continues to execute till the condition in the paranthesis is TRUE
+        boolean notfound = true;
+        int idNumber = 1;
+        //  a while loop continues to execute till the condition in the paranthesis is TRUE
         while (notfound) {
-            //get all the data in the column ID of the table
+            //    get all the data in the column ID of the table
             List<WebElement> idColumn = driver.findElements(By.xpath("//table[@id='resultTable']/tbody/tr/td[2]"));
-            //table[@id='resultTable']/tbody/tr/td[2]
-            //        counter variable
+            //counter variable
+
             for (WebElement id : idColumn) {
                 String personID = id.getText();
 
-                if (personID.equals("411641A")) {
-                    System.out.println("the row number of the desired id is" + (rowCount + 1));
+                if (personID.equals("41641A") || personID.equals("4840054")) {
+                    //   System.out.println("hey i have found the id succesfully");//check if our code is right
+                    System.out.println("the row number of the desired id is " + (rowCount + 1));
                     WebElement checkBox = driver.findElement(By.xpath("//table[@id='resultTable']/tbody/tr[" + (rowCount + 1) + "]/td[1]"));
                     checkBox.click();
-                    notfound=false;
+                    //idNumber=1-> 1==2 -not true-will run again-idNumber=2->2==2
+                    if (idNumber == 2) {
+                        notfound = false;//when second cond we found, we want to put false
+                    }
+                    idNumber = idNumber + 1;
                     break;
                 }
                 rowCount = rowCount + 1;
             }
-            if(notfound) {
+            if (notfound) {
                 WebElement nextBtn = driver.findElement(By.xpath("//a[text()='Next']"));
                 nextBtn.click();
-            }}}}
+                rowCount = 0;//we need to reset the count
 
+            }
+        }
+    }
+}
 
 
 

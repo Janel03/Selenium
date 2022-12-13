@@ -10,7 +10,7 @@ import java.util.List;
 public class checkBoxes {
     public static void main(String[] args) {
         //       setting up the webDriver
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","driverNew/chromedriver.exe");
 //        create an instance
         WebDriver driver= new ChromeDriver();
 //        open the syntax

@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ad7079-30a6-4c42-93de-0137eba51493" name="Changes" comment="">
+    <list default="true" id="10ad7079-30a6-4c42-93de-0137eba51493" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Selenium22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium22.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C8WaitsAndTables/WaitsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C8WaitsAndTables/WaitsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C8WaitsAndTables/WaitsDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C8WaitsAndTables/WaitsDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaHunters/DynamicChanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaHunters/DynamicChanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaHunters/windowHandle/explicitWaits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaHunters/windowHandle/explicitWaits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C12/jsExecuterScroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C12/jsExecuterScroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Review2/checkBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review2/checkBoxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Review2/getWrongCredentialsWhileLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review2/getWrongCredentialsWhileLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Review4/waitReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review4/waitReview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,23 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/SDET Programs/Maven/commons-io-2.6.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SDET Programs/Maven/commons-io-2.6.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.explicitWaits">
-    <configuration name="DynamicChanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaHunters.DynamicChanges" />
+}</component>
+  <component name="RunManager" selected="Application.Tables2">
+    <configuration name="Tables2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review5.Tables2" />
       <module name="Selenium22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaHunters.*" />
+          <option name="PATTERN" value="Review5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C8WaitsAndTables.WaitsDemo" />
+    <configuration name="checkBoxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review2.checkBoxes" />
       <module name="Selenium22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C8WaitsAndTables.*" />
+          <option name="PATTERN" value="Review2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitsDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C8WaitsAndTables.WaitsDemo2" />
+    <configuration name="getWrongCredentialsWhileLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review2.getWrongCredentialsWhileLogin" />
       <module name="Selenium22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="C8WaitsAndTables.*" />
+          <option name="PATTERN" value="Review2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="explicitWaits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaHunters.windowHandle.explicitWaits" />
+    <configuration name="jsExecuterScroll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C12.jsExecuterScroll" />
       <module name="Selenium22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaHunters.windowHandle.*" />
+          <option name="PATTERN" value="C12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.explicitWaits" />
+        <item itemvalue="Application.Tables2" />
+        <item itemvalue="Application.getWrongCredentialsWhileLogin" />
+        <item itemvalue="Application.checkBoxes" />
+        <item itemvalue="Application.jsExecuterScroll" />
         <item itemvalue="Application.waitReview" />
-        <item itemvalue="Application.DynamicChanges" />
-        <item itemvalue="Application.WaitsDemo2" />
-        <item itemvalue="Application.WaitsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +127,18 @@
       <option name="presentableId" value="Default" />
       <updated>1666033079843</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1670713179460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670713179460</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

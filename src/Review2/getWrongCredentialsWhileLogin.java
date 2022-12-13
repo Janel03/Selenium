@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class getWrongCredentialsWhileLogin {
     public static void main(String[] args) throws InterruptedException {
         //       setting up the webDriver
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","driverNew/chromedriver.exe");
 //        create an instance
         WebDriver driver= new ChromeDriver();
 //        open the fb.com
